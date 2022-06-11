@@ -1,1 +1,3 @@
-hello readme for vicsek model
+The Vicsek model is a mathematical model used to describe active matter. One motivation of the study of active matter by physicists is the rich phenomenology associated to this field. Collective motion and swarming are among the most studied phenomena.
+
+This started as a toy model to understand collective motion/swarming
