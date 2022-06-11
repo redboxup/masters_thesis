@@ -1,4 +1,4 @@
-# masters_thesis
+# Master thesis: Collective Olfactory search using Reinforcement learning
 All files,programs and code backup for working on my master's thesis
 
 ## Vicsek model 
