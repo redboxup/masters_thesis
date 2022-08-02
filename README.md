@@ -8,4 +8,5 @@ This is just code of toy-model to understanding swarming
 Implemented an actor-crtic algorithm for a windy grid world, which is basically a simplified navigation problem
 
 ## First update
+uploading rest of the relevant files too
 
