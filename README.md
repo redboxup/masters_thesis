@@ -14,7 +14,7 @@ The model can be simply described by the mathematical equations
 
 $$ \textbf{r}_i^{t + \Delta t} = \textbf{r}_i^{t} + \Delta tv_o \textbf{s}_i^{t+\Delta t}$$
 
-$$ \theta _{i}^{t + \Delta t} = Arg\left[\sum_{j}n_{ij}^{t}s^t_j\right] + \eta \xi_i^t$$
+$$ \theta _{i}^{t + \Delta t} = Arg\left[\sum_{j} n_{ij}^{t}s^t_j\right] + \eta \xi_i^t$$
 
 
 ![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png)
