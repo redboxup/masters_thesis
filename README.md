@@ -19,10 +19,8 @@ $$ \theta_{i}^{t + \Delta t} = Arg (\sum_{j} n_{ij}^{t} s^t_j) + \eta \xi_i^t$$
 ### Some Results
 <p align = "center">
   <img src="https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png" />
-  
-![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png)
-![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_noise.png)
-![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_density.png)
+  <img src="https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_noise.png" />
+  <img src="https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_density.png" />
 </p>
 
 
