@@ -10,9 +10,12 @@ To make the model more closely resemble real life, we must also include turbulen
 ## Vicsek model 
 Collective motion or flocking is a ubiquitous phenomenon, which is observed in many different living systems in wide variety of length scales. These are very interesting systems and non-trivial at the same time, because they occur far from equilibrium. We enter into the domain of non-equilibrium statistical mechanics wherein the agents are _active_, that is they continously dissipate energy to move or perform any mechanical work. Such systems are active areas of research, where researchers are trying to find underlying principles. One interesting phenomena is _spontaneous breaking of a continuous symmetry_. The Vicsek model is perhaps the simplest model for displaying this phase transistion in collective motion.
 
-The model can be simply described by
+The model can be simply described by the mathematical equations
 
 $$ \textbf{r}_i^{t + \Delta t} = \textbf{r}_i^{t} + \Delta tv_o \textbf{s}_i^{t+\Delta t}$$
+
+$$ \theta _{i}^{t + \Delta t} = Arg\left[\Sum_{j}n_{ij}^{t}s^t_j\right] + \eta \xi_i^t$$
+
 
 ![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png)
 
