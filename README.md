@@ -9,6 +9,10 @@ To make the model more closely resemble real life, we must also include turbulen
 
 ## Vicsek model 
 This is just code of toy-model to understanding swarming
+![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png)
+
+
+
 
 ## Reinforcement learning
 Implemented an actor-crtic algorithm for a windy grid world, which is basically a simplified navigation problem
