@@ -16,9 +16,13 @@ $$ \textbf{r}_i^{t + \Delta t} = \textbf{r}_i^{t} + \Delta tv_o \textbf{s}_i^{t+
 
 $$ \theta_{i}^{t + \Delta t} = Arg (\sum_{j} n_{ij}^{t} s^t_j) + \eta \xi_i^t$$
 
-<p align="center">
-  ![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png)
-</p>
+### Some Results
+![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png)
+![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_noise.png)
+![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_density.png)
+
+
+
 
 
 
