@@ -11,7 +11,7 @@ from datetime import datetime
 
 
 #Number of particles
-N=50
+N=500
 
 #mean velocities of the system
 v0 = 1
@@ -23,7 +23,7 @@ xlim,ylim = 1,1
 r = 0.1
 
 #let us define the time-steps
-nn = 200
+nn = 500
 
 #time between each time step in second
 dt = 0.1

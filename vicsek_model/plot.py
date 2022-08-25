@@ -16,37 +16,39 @@ def func2(x,a,b,c,d,e,f,g):
 
 
 
-df = pd.read_csv('Va_vs_r_100_200_17:58.csv')
-df2 = pd.read_csv('Va_vs_r_f_50_200_15:12.csv')
-df3 = pd.read_csv('Va_vs_r_f_500_200_15:37.csv')
+df = pd.read_csv('Va_vs_eta_f_50_500_23:13.csv')
+df2 = pd.read_csv('Va_vs_eta_f_100_500_23:17.csv')
+df3 = pd.read_csv('Va_vs_eta_f_500_500_23:40.csv')
 
 
-plt.plot(df2.r,df2.Va,"o",label="N=50",color= "green")
+plt.plot(df.eta,df.Va,"o",label="N=50",color= "green")
 #plt.plot(df2.r,df2.Va,color = "green")
 
 
-plt.plot(df.r,df.Va,"o",label="N=100",color = "red")
+plt.plot(df2.eta,df2.Va,"o",label="N=100",color = "red")
 #plt.plot(df.r,df.Va,color = "red")
 
 
-plt.plot(df3.r,df3.Va,"o",label="N=500",color = "blue")
-plt.plot(df3.r,df3.Va,color = "blue")
+plt.plot(df3.eta,df3.Va,"o",label="N=500",color = "blue")
+#plt.plot(df3.eta,df3.Va,color = "blue")
 
 
 #Now let us define teh parameters a,b,c to fit the function
-popt, pcov = curve_fit(func,df2.r,df2.Va,maxfev = 5000)
-plt.plot(df2.r,func(df2.r,*popt),color = "green")
+popt, pcov = curve_fit(func,df2.eta,df2.Va,maxfev = 5000)
+plt.plot(df2.eta,func(df2.eta,*popt),color = "red")
 
-popt, pcov = curve_fit(func2,df.r,df.Va,maxfev = 5000)
-plt.plot(df.r,func2(df.r,*popt),color = "red")
+popt, pcov = curve_fit(func2,df.eta,df.Va,maxfev = 5000)
+plt.plot(df.eta,func2(df.eta,*popt),color = "green")
+
+popt, pcov = curve_fit(func2,df3.eta,df3.Va,maxfev = 5000)
+plt.plot(df3.eta,func2(df3.eta,*popt),color = "blue")
 
 
 
-
-plt.xlabel('Radius of Interaction (r)')
-#plt.xlabel('Noise Parameter ('+r'$\eta$'+')')
+#plt.xlabel('Radius of Interaction (r)')
+plt.xlabel('Noise Parameter ('+r'$\eta$'+')')
 plt.ylabel('Order Parameter ('+r'$V_a$'+')')
-plt.title("Order Parameter($V_a$) vs Radius of Interaction(r) for $\eta$ = 0.2")
+plt.title("Order Parameter($V_a$) vs Noise($\eta$) for r = 0.1")
 plt.legend()
 plt.show()
 
