@@ -12,7 +12,7 @@ Collective motion or flocking is a ubiquitous phenomenon, which is observed in m
 
 The model can be simply described by
 
-$$ r_i^{t + \nabla t} = r_i^{t} + \nabla tv_o s_i^{t+\nabla t}$$
+$$ r_i^{t + \Delta t} = r_i^{t} + \Delta tv_o s_i^{t+\Delta t}$$
 
 ![alt text](https://github.com/redboxup/masters_thesis/blob/main/vicsek_model/order_parameter_vs_radius_interaction.png)
 
